@@ -1,9 +1,9 @@
-<template>
+
     <div>
       <h1>Dashboard</h1>
       <p>Selamat datang di Dashboard sederhana!</p>
     </div>
-  </template>
+
   
   <script>
   export default {
