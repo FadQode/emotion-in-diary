@@ -1,17 +1,17 @@
-<script setup>
-import Navbar from './components/Navbar.vue';
-</script>
-
 <template>
-  <div id="app">
-    <!-- Navbar Component -->
+  <div>
     <Navbar />
-
-    <!-- Main Content -->
-
+    <router-view />
   </div>
 </template>
 
-<style>
-/* Optional: Global styles for the app */
-</style>
+<script>
+import Navbar from "@/components/Navbar.vue";
+
+export default {
+  name: "App",
+  components: {
+    Navbar,
+  },
+};
+</script>
